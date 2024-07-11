@@ -5,7 +5,7 @@ const content = document.createElement("div");
 content.classList.add("grid");
 container.appendChild(content);
 
-for(let i=0;i<16;i++){
+for(let j=0;j<16;j++){
 const row = document.createElement("div");
 row.classList.add("rows");
 content.appendChild(row);
@@ -15,5 +15,14 @@ content.appendChild(row);
 }
 
 CreateDiv(16);
+
+const grids = document.querySelectorAll(".rows");
+grids.forEach(grid => {
+    grid.addEventListener("mouseover", () => {
+        grid.setAttribute("style", "background-color: black;");
+    });
+});
+
+
 
 
