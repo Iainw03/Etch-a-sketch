@@ -1,0 +1,17 @@
+.grid{
+    background-color: pink;
+    height: 50px;
+    width: auto;
+    display: flex;
+   
+    
+}
+
+.rows{
+    background-color: grey;
+    border: solid 1px red;
+    height: 100%;
+    width: 6.25%;
+    display: flex;
+}
+
