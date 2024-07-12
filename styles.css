@@ -1,7 +1,19 @@
+
+.page{
+    display: flex;
+
+}
+
+.board{
+    height: 800px;
+    width: 916px;
+    border: 10px solid blue;
+}
+
 .grid{
     background-color: pink;
     height: 50px;
-    width: auto;
+    width: 916px;
     display: flex;
    
     
