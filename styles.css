@@ -5,9 +5,9 @@
 }
 
 #container{
-    height: 800px;
+    height: 750px;
     width: 916px;
-    border: 10px solid blue;
+    border: 10px solid grey;
 }
 
 .grid{
@@ -20,11 +20,17 @@
 }
 
 .rows{
-    background-color: grey;
-    border: solid 1px red;
+    background-color: white;
+   
     height: 100%;
     
     display: flex;
     box-sizing: border-box;
+}
+
+#gridbutton{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
 }
 
