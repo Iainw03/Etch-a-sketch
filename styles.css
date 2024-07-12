@@ -4,7 +4,7 @@
 
 }
 
-.board{
+#container{
     height: 800px;
     width: 916px;
     border: 10px solid blue;
@@ -12,8 +12,8 @@
 
 .grid{
     background-color: pink;
-    height: 50px;
-    width: 916px;
+    
+    width: 100%;
     display: flex;
    
     
@@ -23,7 +23,8 @@
     background-color: grey;
     border: solid 1px red;
     height: 100%;
-    width: 6.25%;
+    
     display: flex;
+    box-sizing: border-box;
 }
 
